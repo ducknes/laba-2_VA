@@ -9,28 +9,34 @@ namespace calculator
             double exp = Exp(1);
             Console.WriteLine($"exp: {exp}");
             Console.WriteLine($"exp: {Math.Exp(1)}");
-            double ln = Ln(4);
+
+            double ln = Ln(2);
             Console.WriteLine($"ln: {ln}");
-            Console.WriteLine($"ln: {Math.Log(4)}");
+            Console.WriteLine($"ln: {Math.Log(2)}");
+
             double sin = Sin(2);
             Console.WriteLine($"sin: {sin}");
             Console.WriteLine($"sin: {Math.Sin(2)}");
+
             double cos = Cos(2);
             Console.WriteLine($"cos: {cos}");
             Console.WriteLine($"cos: {Math.Cos(2)}");
+
             double tg = Sin(3) / Cos(3);
             Console.WriteLine($"tg: {tg}");
             Console.WriteLine($"tg: {Math.Tan(3)}");
+            
             double ctg = Cos(3) / Sin(3);
             Console.WriteLine($"ctg: {ctg}");
             Console.WriteLine($"ctg: {1.0 / Math.Tan(3)}");
-            double sqrt = Sqrt(4);
+
+            double sqrt = Sqrt(3);
             Console.WriteLine($"sqrt: {sqrt}");
         }
 
         static double Sqrt(double x) {
             double result = x;
-            while (Math.Abs(Math.Pow(result, 2) - x) > 0.000000000000001) {
+            while (Math.Abs(Math.Pow(result, 2) - x) > 0.01) {
                 result = (result + (x / result)) / 2;
             }
             return result;
@@ -75,7 +81,9 @@ namespace calculator
             while (Math.Abs(current) > 0) 
             {
                 result += current;
-                current = (1 / (2 * k + 1)) * Math.Pow(u0, 2*k+1);
+                double x1 = 1d / (2 * k + 1);
+                double x2 = Math.Pow(u0, 2 * k + 1);
+                current = x1 * x2;
                 k++;
             }
             return -2 * result;
