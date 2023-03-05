@@ -1,0 +1,15 @@
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/bin/Debug/net6.0/lab2
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/bin/Debug/net6.0/lab2.deps.json
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/bin/Debug/net6.0/lab2.runtimeconfig.json
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/bin/Debug/net6.0/lab2.dll
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/bin/Debug/net6.0/lab2.pdb
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.csproj.AssemblyReference.cache
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.AssemblyInfoInputs.cache
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.AssemblyInfo.cs
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.csproj.CoreCompileInputs.cache
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.dll
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/refint/lab2.dll
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.pdb
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/lab2.genruntimeconfig.cache
+/Users/ilyaantonov/Downloads/2 курс/алгоритмы Балашова/laba-2/lab2/obj/Debug/net6.0/ref/lab2.dll
