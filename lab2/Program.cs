@@ -6,37 +6,31 @@ namespace calculator
     {
         static void Main(string[] args)
         {
-            double exp = Exp(1);
+            double exp = Exp(66);
             Console.WriteLine($"exp: {exp}");
-            Console.WriteLine($"exp: {Math.Exp(1)}");
 
             double ln = Ln(2);
             Console.WriteLine($"ln: {ln}");
-            Console.WriteLine($"ln: {Math.Log(2)}");
 
             double sin = Sin(2);
             Console.WriteLine($"sin: {sin}");
-            Console.WriteLine($"sin: {Math.Sin(2)}");
 
             double cos = Cos(2);
             Console.WriteLine($"cos: {cos}");
-            Console.WriteLine($"cos: {Math.Cos(2)}");
 
             double tg = Sin(3) / Cos(3);
             Console.WriteLine($"tg: {tg}");
-            Console.WriteLine($"tg: {Math.Tan(3)}");
             
             double ctg = Cos(3) / Sin(3);
             Console.WriteLine($"ctg: {ctg}");
-            Console.WriteLine($"ctg: {1.0 / Math.Tan(3)}");
 
-            double sqrt = Sqrt(3);
+            double sqrt = Sqrt(25);
             Console.WriteLine($"sqrt: {sqrt}");
         }
 
         static double Sqrt(double x) {
             double result = x;
-            while (Math.Abs(Math.Pow(result, 2) - x) > 0.01) {
+            while (Math.Abs(Math.Pow(result, 2) - x) > 0.000000000000001) {
                 result = (result + (x / result)) / 2;
             }
             return result;
